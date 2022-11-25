@@ -99,7 +99,6 @@ class SingleAgentEnvironment(gym.Env):
 
         return state
 
-
     def step(self, action: int):
         """ Procesamos la acción y devolvemos un estado, una recompensa, un done y otra info. """
 
@@ -133,7 +132,6 @@ class SingleAgentEnvironment(gym.Env):
 
         # Devolvemos (s,r,d,info)
         return self.state, reward, done, {}
-
 
     def render(self, mode = 'human'):
         """ Pintamos el escenario """
