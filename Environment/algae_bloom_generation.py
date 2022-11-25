@@ -89,10 +89,6 @@ class algae_bloom:
         plt.pause(0.01)
     
 
-
-
-        
-
 if __name__ == '__main__':
 
     import matplotlib.pyplot as plt
